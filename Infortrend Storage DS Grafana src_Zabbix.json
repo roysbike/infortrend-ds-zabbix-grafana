@@ -1,4 +1,46 @@
 {
+  "__inputs": [
+    {
+      "name": "DS_ZABBIX",
+      "label": "zabbix",
+      "description": "",
+      "type": "datasource",
+      "pluginId": "alexanderzobnin-zabbix-datasource",
+      "pluginName": "Zabbix"
+    }
+  ],
+  "__requires": [
+    {
+      "type": "datasource",
+      "id": "alexanderzobnin-zabbix-datasource",
+      "name": "Zabbix",
+      "version": "1.0.0"
+    },
+    {
+      "type": "grafana",
+      "id": "grafana",
+      "name": "Grafana",
+      "version": "6.1.4"
+    },
+    {
+      "type": "panel",
+      "id": "graph",
+      "name": "Graph",
+      "version": ""
+    },
+    {
+      "type": "panel",
+      "id": "singlestat",
+      "name": "Singlestat",
+      "version": ""
+    },
+    {
+      "type": "panel",
+      "id": "table",
+      "name": "Table",
+      "version": ""
+    }
+  ],
   "annotations": {
     "list": [
       {
@@ -15,8 +57,8 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 11,
-  "iteration": 1555503307692,
+  "id": null,
+  "iteration": 1555503307693,
   "links": [],
   "panels": [
     {
@@ -2546,12 +2588,8 @@
     "list": [
       {
         "allValue": null,
-        "current": {
-          "selected": true,
-          "text": "Infortrend",
-          "value": "Infortrend"
-        },
-        "datasource": "zabbix",
+        "current": {},
+        "datasource": "${DS_ZABBIX}",
         "definition": "*",
         "hide": 0,
         "includeAll": false,
@@ -2572,13 +2610,8 @@
       },
       {
         "allValue": null,
-        "current": {
-          "selected": true,
-          "tags": [],
-          "text": "storage.andromeda.vgg.caf.ptolemey.net",
-          "value": "storage.andromeda.vgg.caf.ptolemey.net"
-        },
-        "datasource": "zabbix",
+        "current": {},
+        "datasource": "${DS_ZABBIX}",
         "definition": "$group.*",
         "hide": 0,
         "includeAll": false,
