@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>4.2</version>
+    <date>2019-04-17T12:14:36Z</date>
+    <value_maps>
+        <value_map>
+            <name>IFT FAN Status</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Normal</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Malfunctioning</newvalue>
+                </mapping>
+                <mapping>
+                    <value>64</value>
+                    <newvalue>OFF</newvalue>
+                </mapping>
+                <mapping>
+                    <value>128</value>
+                    <newvalue>NOT Present</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>IFT Harddisk Status</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>0 :New Drive</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>1 :On-Line Drive</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>2 :Used Drive</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>3 :Spare Drive</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>4 :Drive Initialization in Progress</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>5 :Drive Rebuild in Progress</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>6 :Add Drive to Logical Drive in Progress</newvalue>
+                </mapping>
+                <mapping>
+                    <value>9</value>
+                    <newvalue>9 :Global Spare Drive</newvalue>
+                </mapping>
+                <mapping>
+                    <value>17</value>
+                    <newvalue>0x11 :Drive is in process of Cloning another Drive</newvalue>
+                </mapping>
+                <mapping>
+                    <value>18</value>
+                    <newvalue>0x12 :Drive is a valid Clone of another Drive</newvalue>
+                </mapping>
+                <mapping>
+                    <value>19</value>
+                    <newvalue>0x13 :Drive is in process of Copying from another Drive</newvalue>
+                </mapping>
+                <mapping>
+                    <value>63</value>
+                    <newvalue>0x3f :Drive Absent</newvalue>
+                </mapping>
+                <mapping>
+                    <value>128</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>129</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>130</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>131</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>132</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>133</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>134</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>135</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>136</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>137</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>138</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>139</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>140</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>141</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>142</value>
+                    <newvalue>0x8x: SCSI Device</newvalue>
+                </mapping>
+                <mapping>
+                    <value>252</value>
+                    <newvalue>0xfc :Missing Global Spare Drive</newvalue>
+                </mapping>
+                <mapping>
+                    <value>253</value>
+                    <newvalue>0xfd :Missing Spare Drive</newvalue>
+                </mapping>
+                <mapping>
+                    <value>254</value>
+                    <newvalue>0xfe :Missing Drive</newvalue>
+                </mapping>
+                <mapping>
+                    <value>255</value>
+                    <newvalue>0xff :Failed Drive</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>IFT ldOpModes</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Single Drive (Primary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>NON-RAID (Primary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>RAID-0 (Primary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>RAID-1 (Primary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>RAID-3 (Primary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>RAID-4 (Primary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>RAID-5 (Primary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>7</value>
+                    <newvalue>RAID-6 (Primary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>15</value>
+                    <newvalue>NOT DEFINED (Primary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>71</value>
+                    <newvalue>RAID-6 (Primary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>99</value>
+                    <newvalue>RAID-10 (Primary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>103</value>
+                    <newvalue>RAID-6 (Primary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>128</value>
+                    <newvalue>Single Drive (Secondary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>129</value>
+                    <newvalue>NON-RAID (Secondary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>130</value>
+                    <newvalue>RAID-0 (Secondary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>131</value>
+                    <newvalue>RAID-1 (Secondary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>132</value>
+                    <newvalue>RAID-3 (Secondary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>133</value>
+                    <newvalue>RAID-4 (Secondary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>134</value>
+                    <newvalue>RAID-5 (Secondary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>135</value>
+                    <newvalue>RAID-6 (Secondary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>143</value>
+                    <newvalue>NOT DEFINED (Secondary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>227</value>
+                    <newvalue>RAID-10 (Secondary Controller)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>231</value>
+                    <newvalue>RAID-6 (Secondary Controller)</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>IFT ldStatus</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>0 :Good</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>1 :Rebuilding</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>2 :Initializing</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>3 :Degraded</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>4 :Dead</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>5 :Invalid</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>6 :Incomplete</newvalue>
+                </mapping>
+                <mapping>
+                    <value>7</value>
+                    <newvalue>7 :Drive Missing</newvalue>
+                </mapping>
+                <mapping>
+                    <value>64</value>
+                    <newvalue>0 :Good</newvalue>
+                </mapping>
+                <mapping>
+                    <value>65</value>
+                    <newvalue>1 :Rebuilding</newvalue>
+                </mapping>
+                <mapping>
+                    <value>66</value>
+                    <newvalue>2 :Initializing</newvalue>
+                </mapping>
+                <mapping>
+                    <value>67</value>
+                    <newvalue>3 :Degraded</newvalue>
+                </mapping>
+                <mapping>
+                    <value>68</value>
+                    <newvalue>4 :Dead</newvalue>
+                </mapping>
+                <mapping>
+                    <value>69</value>
+                    <newvalue>5 :Invalid</newvalue>
+                </mapping>
+                <mapping>
+                    <value>70</value>
+                    <newvalue>6 :Incomplete</newvalue>
+                </mapping>
+                <mapping>
+                    <value>71</value>
+                    <newvalue>7 :Drive Missing</newvalue>
+                </mapping>
+                <mapping>
+                    <value>128</value>
+                    <newvalue>0 :Good (drive Offline)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>129</value>
+                    <newvalue>1 :Rebuilding  (drive Offline)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>130</value>
+                    <newvalue>2 :Initializing  (drive Offline)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>131</value>
+                    <newvalue>3 :Degraded  (drive Offline)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>132</value>
+                    <newvalue>4 :Dead  (drive Offline)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>133</value>
+                    <newvalue>5 :Invalid (drive Offline)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>134</value>
+                    <newvalue>6 :Incomplete (drive Offline)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>135</value>
+                    <newvalue>7 :Drive Missing (drive Offline)</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>IFT Power Supply Status</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Normally</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Malfunctioning</newvalue>
+                </mapping>
+                <mapping>
+                    <value>64</value>
+                    <newvalue>OFF</newvalue>
+                </mapping>
+                <mapping>
+                    <value>128</value>
+                    <newvalue>NOT Present</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>IFT Redundant Controller Config</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Disabeld</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Primary</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>Secondary</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>IFT Redundant Controller Status</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Inactive</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Scanning</newvalue>
+                </mapping>
+                <mapping>
+                    <value>17</value>
+                    <newvalue>Detected</newvalue>
+                </mapping>
+                <mapping>
+                    <value>18</value>
+                    <newvalue>Enabeld</newvalue>
+                </mapping>
+                <mapping>
+                    <value>62</value>
+                    <newvalue>Controller Failed</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>IFT Temperature Sensor Status</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Normal</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Malfunctioning</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>Cold Temp. Warning</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>Hot Temp. Warning</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>Cold Temp. Limit Exceeded</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>Hot Temp. Limit Exceeded</newvalue>
+                </mapping>
+                <mapping>
+                    <value>64</value>
+                    <newvalue>NOT Activated</newvalue>
+                </mapping>
+                <mapping>
+                    <value>128</value>
+                    <newvalue>NOT Present</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+    </value_maps>
+</zabbix_export>
